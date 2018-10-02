@@ -1,0 +1,15 @@
+﻿빌드 시작: 2017-12-08 오후 4:12:57
+     1>2 노드의 "c:\Users\uos\documents\visual studio 2012\Projects\20171208iobyfile\20171208iobyevent\20171208iobyevent.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt iobyevent.cpp
+         iobyevent.cpp
+     1>c:\users\uos\documents\visual studio 2012\projects\20171208iobyfile\20171208iobyevent\iobyevent.cpp(59): warning C4996: 'wcscat': This function or variable may be unsafe. Consider using wcscat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\string.h(279) : 'wcscat' 선언을 참조하십시오.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"c:\users\uos\documents\visual studio 2012\Projects\20171208iobyfile\Debug\20171208iobyevent.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"c:\users\uos\documents\visual studio 2012\Projects\20171208iobyfile\Debug\20171208iobyevent.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"c:\users\uos\documents\visual studio 2012\Projects\20171208iobyfile\Debug\20171208iobyevent.lib" /MACHINE:X86 Debug\iobyevent.obj
+         20171208iobyevent.vcxproj -> c:\users\uos\documents\visual studio 2012\Projects\20171208iobyfile\Debug\20171208iobyevent.exe
+     1>"c:\Users\uos\documents\visual studio 2012\Projects\20171208iobyfile\20171208iobyevent\20171208iobyevent.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:00.60
